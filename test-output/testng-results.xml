@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-08T15:41:32 IST" name="Default suite" finished-at="2023-05-08T15:42:42 IST" duration-ms="70346">
+    <groups>
+    </groups>
+    <test started-at="2023-05-08T15:41:32 IST" name="Default test" finished-at="2023-05-08T15:42:42 IST" duration-ms="70346">
+      <class name="com.MyStore.testcases.SearchAmazon">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.MyStore.testcases.SearchAmazon@55b53d44]" started-at="2023-05-08T15:41:32 IST" name="loadConfig" finished-at="2023-05-08T15:41:32 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.MyStore.testcases.SearchAmazon@55b53d44]" started-at="2023-05-08T15:41:32 IST" name="launch" finished-at="2023-05-08T15:41:37 IST" duration-ms="4694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="verifyAmazonSearchAddedToCartFeature()[pri:0, instance:com.MyStore.testcases.SearchAmazon@55b53d44]" started-at="2023-05-08T15:41:37 IST" name="verifyAmazonSearchAddedToCartFeature" finished-at="2023-05-08T15:42:09 IST" duration-ms="32212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAmazonSearchAddedToCartFeature -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.MyStore.testcases.SearchAmazon@55b53d44]" started-at="2023-05-08T15:42:09 IST" name="tearDown" finished-at="2023-05-08T15:42:10 IST" duration-ms="568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAmazonSearchAddedToCartFeature status=SUCCESS method=SearchAmazon.verifyAmazonSearchAddedToCartFeature()[pri:0, instance:com.MyStore.testcases.SearchAmazon@55b53d44] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.MyStore.testcases.SearchAmazon@55b53d44]" started-at="2023-05-08T15:42:10 IST" name="launch" finished-at="2023-05-08T15:42:15 IST" duration-ms="4980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="verifyAmazonSearchBuyNowFeature()[pri:0, instance:com.MyStore.testcases.SearchAmazon@55b53d44]" started-at="2023-05-08T15:42:15 IST" name="verifyAmazonSearchBuyNowFeature" finished-at="2023-05-08T15:42:42 IST" duration-ms="27206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAmazonSearchBuyNowFeature -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.MyStore.testcases.SearchAmazon@55b53d44]" started-at="2023-05-08T15:42:42 IST" name="tearDown" finished-at="2023-05-08T15:42:42 IST" duration-ms="654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAmazonSearchBuyNowFeature status=SUCCESS method=SearchAmazon.verifyAmazonSearchBuyNowFeature()[pri:0, instance:com.MyStore.testcases.SearchAmazon@55b53d44] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MyStore.testcases.SearchAmazon -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
